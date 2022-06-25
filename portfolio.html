@@ -13,27 +13,31 @@
 <body>
     <!--Шапка-->
     <header class="header header-portfolio">
-        <nav>
-            <a class="header-logo logo" lang="en" href="./index.html">
-                Web<span class="design-logo">Studio</span>
-            </a>
-            <ul class="header-links">
-                <li> <a class="link hover-focus" href="./index.html">Студия</a></li>
-                <li> <a class="link hover-focus current" href="./portfolio.html">Портфолио</a></li>
-                <li> <a class="link hover-focus" href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <a class="header-contacts hover-focus" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-contacts hover-focus" href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="container">
+            <nav>
+                <a class="link header-logo logo" lang="en" href="./index.html">
+                    Web<span class="design-logo">Studio</span>
+                </a>
+                <ul class="header-links list">
+                    <li> <a class="link hover-focus" href="./index.html">Студия</a></li>
+                    <li> <a class="link hover-focus current" href="./portfolio.html">Портфолио</a></li>
+                    <li> <a class="link hover-focus" href="">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <a class="link header-contacts hover-focus" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link header-contacts hover-focus" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
     </header>
     <main class="main">
         <!--Основная секция страницы-->
         <section class="portfolio">
             <!-- Заголовок секции страницы убрать в css -->
             <h1 class="visually-hidden">Портфолио</h1>
-            <ul class="filter-list">
+            <ul class="filter-list list">
                 <li>
-                    <button type="button" class="filter-button first-button">Все</button>
+                    <button type="button" class="filter-button">Все</button>
                 </li>
                 <li>
                     <button type="button" class="filter-button">Веб-сайты</button>
@@ -48,7 +52,7 @@
                     <button type="button" class="filter-button">Маркетинг</button>
                 </li>
             </ul>
-            <ul class="portfolio-list">
+            <ul class="portfolio-list list">
                 <!-- Проект 1 -->
                 <li class="portfolio-item">
                     <img src="./images/portfolio/project1.jpg" class="portfolio-img" width="370" alt="экран ноутбука с открытым сайтом">
@@ -113,8 +117,8 @@
             Web<span class="design-logo">Studio</span>
         </a>
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <a class="footer-contacts hover-focus" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-        <a class="footer-contacts hover-focus" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="link footer-contacts hover-focus" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+        <a class="link footer-contacts hover-focus" href="tel:+380961111111">+38 096 111 11 11</a>
     </footer>
 </body>
 </html>
