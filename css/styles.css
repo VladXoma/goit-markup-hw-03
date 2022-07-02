@@ -159,7 +159,8 @@ body {
 
 .hero {
   text-align: center;
-  padding-bottom: 0;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero-title {
   color: var(--white-text-color);
@@ -244,7 +245,8 @@ body {
   column-gap: 30px;
 }
 
-.work-title {
+.work-title,
+.team-title {
   margin-bottom: 50px;
 }
 /* team  */
